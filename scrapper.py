@@ -1,9 +1,7 @@
-import pandas as pd
 import selenium
 from selenium.webdriver.chrome.service import Service
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
-from selenium.common.exceptions import NoSuchElementException
 import csv
 import time
 from bs4 import BeautifulSoup
